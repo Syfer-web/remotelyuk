@@ -306,6 +306,9 @@
     .nav-links a:hover { color: var(--text); }
     .nav-cta { background: var(--accent) !important; color: #fff !important; padding: 9px 20px !important; border-radius: 8px; font-weight: 600 !important; transition: background 0.2s !important; }
     .nav-cta:hover { background: var(--accent-dark) !important; }
+    .nav-call { display: inline-flex !important; align-items: center !important; gap: 6px !important; background: transparent !important; color: var(--text) !important; padding: 9px 14px !important; border-radius: 8px !important; font-weight: 500 !important; border: 1.5px solid var(--border) !important; transition: background 0.2s, border-color 0.2s !important; }
+    .nav-call:hover { background: var(--bg) !important; border-color: var(--accent) !important; color: var(--accent) !important; }
+    .nav-call svg { flex-shrink: 0; }
     .menu-toggle-input { display: none; }
     .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
     .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: all 0.3s; }
@@ -909,12 +912,20 @@
        the script tag below and replace this comment block.
        Paste your Clarity tracking script here before going live.
   ════════════════════════════════════════════════════════════ -->
-<link rel="icon" href="https://www.dplooy.com/favicon.ico" />
+
 </head>
 <body>
 
   <!-- ══════════ NAV ══════════ -->
-  <input type="checkbox" id="menuToggle" class="menu-toggle-input" />
+  <input
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+ type="checkbox" id="menuToggle" class="menu-toggle-input" />
   <nav role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="/" class="logo" aria-label="Remotely — Virtual Assistant Services UK">Remotely<span>.</span></a>
@@ -922,6 +933,7 @@
         <li><a href="#how">How It Works</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#faq">FAQs</a></li>
+        <li><a href="tel:03330915670" class="nav-call" aria-label="Call us on 03330 915 670"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Call us</a></li>
         <li><a href="#consult" class="nav-cta">Book a Consultation</a></li>
       </ul>
       <label class="nav-hamburger" for="menuToggle" aria-label="Open menu">
