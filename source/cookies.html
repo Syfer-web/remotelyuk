@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Policy | Remotely</title>
+  <meta name="description" content="Remotely's Cookie Policy — how we use cookies on our website and how you can manage your preferences." />
+  <meta name="robots" content="index, follow" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" /></noscript>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f9f8f6; --surface: #ffffff; --border: #e8e5df; --border-dark: #d0ccc4;
+      --text: #0f0e0c; --text-2: #5a5650; --text-3: #9b958d;
+      --accent: #1a5cff; --accent-light: #eef2ff; --accent-dark: #1040cc;
+      --green: #00b37e; --red: #e53e3e; --amber: #d97706;
+      --radius: 14px;
+      --font-display: 'Sora', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+    /* ── Nav ── */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: rgba(249,248,246,0.92); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+    .nav-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text); text-decoration: none; letter-spacing: -0.5px; }
+    .logo span { color: var(--accent); }
+    .nav-back { font-size: 14px; font-weight: 500; color: var(--text-2); text-decoration: none; display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--text); }
+    .nav-cta { background: var(--accent); color: #fff; padding: 9px 20px; border-radius: 8px; font-weight: 600; font-size: 14px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent-dark); }
+
+    /* ── Hero ── */
+    .legal-hero { background: var(--text); padding: 120px 24px 64px; }
+    .legal-hero-inner { max-width: 760px; margin: 0 auto; }
+    .legal-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; padding: 5px 12px; font-size: 12px; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+    .legal-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 52px); font-weight: 700; color: #fff; letter-spacing: -1px; line-height: 1.1; margin-bottom: 16px; }
+    .legal-hero p { font-size: 16px; color: rgba(255,255,255,0.55); line-height: 1.7; max-width: 560px; }
+    .legal-meta { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
+    .legal-meta-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 5px 11px; font-size: 12px; color: rgba(255,255,255,0.4); }
+
+    /* ── Layout ── */
+    .legal-wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+
+    /* ── Summary box ── */
+    .legal-summary { background: var(--accent-light); border: 1px solid #c7d7ff; border-radius: var(--radius); padding: 20px 24px; margin-bottom: 48px; }
+    .legal-summary strong { font-weight: 600; color: #1a3a8f; }
+    .legal-summary p { color: #1a3a8f; font-size: 14px; line-height: 1.7; }
+
+    /* ── Sections ── */
+    .legal-section { margin-bottom: 48px; padding-bottom: 48px; border-bottom: 1px solid var(--border); }
+    .legal-section:last-child { border-bottom: none; margin-bottom: 0; }
+    .legal-section h2 { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 16px; letter-spacing: -0.3px; }
+    .legal-section h3 { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text); margin: 24px 0 10px; }
+    .legal-section p { font-size: 15px; color: var(--text-2); line-height: 1.75; margin-bottom: 14px; }
+    .legal-section p:last-child { margin-bottom: 0; }
+    .legal-section ul { padding-left: 20px; margin-bottom: 14px; }
+    .legal-section li { font-size: 15px; color: var(--text-2); line-height: 1.7; margin-bottom: 8px; }
+    .legal-section strong { font-weight: 600; color: var(--text); }
+    .legal-section a { color: var(--accent); text-decoration: none; }
+    .legal-section a:hover { text-decoration: underline; }
+
+    /* ── Rights grid ── */
+    .rights-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+    .rights-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+    .rights-card h4 { font-family: var(--font-display); font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .rights-card p { font-size: 13px; color: var(--text-3); line-height: 1.5; margin: 0; }
+
+    /* ── Pricing table ── */
+    .pricing-table { width: 100%; border-collapse: collapse; margin-top: 16px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+    .pricing-table th { background: var(--text); color: #fff; font-family: var(--font-display); font-size: 13px; font-weight: 600; padding: 12px 16px; text-align: left; }
+    .pricing-table td { padding: 12px 16px; font-size: 14px; color: var(--text-2); border-bottom: 1px solid var(--border); background: var(--surface); }
+    .pricing-table tr:last-child td { border-bottom: none; }
+    .pricing-table td strong { color: var(--text); }
+
+    /* ── Footer ── */
+    .legal-footer { background: var(--text); padding: 40px 24px; text-align: center; }
+    .legal-footer p { font-size: 13px; color: rgba(255,255,255,0.3); }
+    .legal-footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+    .legal-footer a:hover { color: rgba(255,255,255,0.8); }
+    .legal-footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 12px; flex-wrap: wrap; }
+
+    @media (max-width: 640px) {
+      .rights-grid { grid-template-columns: 1fr; }
+      .nav-cta { display: none; }
+      .legal-hero { padding: 100px 20px 48px; }
+      .legal-wrap { padding: 40px 20px 72px; }
+    }
+  </style>
+<link rel="icon" href="https://www.dplooy.com/favicon.ico" />
+</head>
+<body>
+
+  <input type="checkbox" id="menuToggle" class="menu-toggle-input" />
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">Remotely<span>.</span></a>
+      <a href="/index.html" class="nav-back">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Back to site
+      </a>
+      <a href="/index.html#consult" class="nav-cta">Book a Consultation</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="legal-hero">
+    <div class="legal-hero-inner">
+      <div class="legal-chip">Legal</div>
+      <h1>Cookie Policy</h1>
+      <p>How we use cookies on the Remotely website and how you can control your preferences.</p>
+      <div class="legal-meta">
+        <span class="legal-meta-chip">Effective: January 2025</span>
+        <span class="legal-meta-chip">UK GDPR Compliant</span>
+        <span class="legal-meta-chip">Last updated: January 2025</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="legal-wrap">
+
+    <div class="legal-summary">
+      <p><strong>Plain English summary:</strong> We use essential cookies to keep the site working, and optional analytics cookies (with your consent) to understand how visitors use the site. You can disable non-essential cookies through your browser settings at any time.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>1. What Are Cookies?</h2>
+      <p>Cookies are small text files stored on your device when you visit a website. They are widely used to make websites work efficiently and to provide information to website owners about how visitors use their site.</p>
+      <p>Cookies are not harmful and cannot access other files on your device. They do not contain personal information such as your name or payment details.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>2. Cookies We Use</h2>
+      <h3>Essential Cookies</h3>
+      <p>These cookies are strictly necessary for the website to function. They cannot be disabled as the site would not work properly without them. They do not require your consent.</p>
+      <ul>
+        <li><strong>Session cookies</strong> — keep you logged in during your visit</li>
+        <li><strong>Security cookies</strong> — protect against cross-site request forgery</li>
+        <li><strong>Load balancing cookies</strong> — ensure consistent performance</li>
+      </ul>
+      <h3>Analytics Cookies</h3>
+      <p>These cookies help us understand how visitors interact with our website — which pages are most visited, how long people stay, and where they navigate from. This helps us improve the site experience. These cookies are only set with your consent.</p>
+      <ul>
+        <li><strong>Google Analytics</strong> — anonymised usage data to improve our website</li>
+      </ul>
+      <h3>Preference Cookies</h3>
+      <p>These cookies remember your settings and choices to personalise your experience on return visits. They are only set with your consent.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>3. Third-Party Cookies</h2>
+      <p>Some cookies on our site may be set by third-party services we use, such as Google Analytics. These third parties have their own privacy and cookie policies, which we encourage you to review. We do not control these third-party cookies.</p>
+      <p>Third-party services we currently use that may set cookies:</p>
+      <ul>
+        <li><strong>Google Analytics</strong> — website usage analytics (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>)</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h2>4. Managing Your Cookie Preferences</h2>
+      <p>You can control and manage cookies in several ways:</p>
+      <h3>Browser settings</h3>
+      <p>Most browsers allow you to view, block, and delete cookies through the settings menu. Here are links to cookie settings for popular browsers:</p>
+      <ul>
+        <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+        <li><a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+        <li><a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Apple Safari</a></li>
+        <li><a href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies" target="_blank" rel="noopener">Microsoft Edge</a></li>
+      </ul>
+      <p>Please note that disabling certain cookies may affect the functionality of our website.</p>
+      <h3>Opt out of analytics</h3>
+      <p>You can opt out of Google Analytics tracking across all websites by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>5. Your Consent</h2>
+      <p>By continuing to use our website without changing your browser cookie settings, you consent to our use of non-essential cookies as described in this policy.</p>
+      <p>You can withdraw your consent at any time by adjusting your browser settings to block or delete cookies, or by contacting us at <a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a>.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>6. Changes to This Policy</h2>
+      <p>We may update this Cookie Policy from time to time to reflect changes in technology, legislation, or our services. We will update the "last updated" date at the top of this page when we do so. We encourage you to check this page periodically.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions about our use of cookies, please contact us:</p>
+      <p><strong>Email:</strong> <a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a><br/>
+      <strong>Website:</strong> <a href="https://www.remotelyuk.com">www.remotelyuk.com</a></p>
+    </div>
+
+  </div>
+
+  <footer class="legal-footer">
+    <div class="legal-footer-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+      <a href="/cookies.html">Cookie Policy</a>
+    </div>
+    <p>© 2025 Remotely. All rights reserved. Registered in England &amp; Wales. &nbsp;|&nbsp; Design by <a href="https://www.syfer.cc" target="_blank" rel="noopener">Syfer</a></p>
+  </footer>
+
+</body>
+</html>

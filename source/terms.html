@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service | Remotely</title>
+  <meta name="description" content="Remotely's Terms of Service — the agreement governing use of our remote staffing services for UK businesses." />
+  <meta name="robots" content="index, follow" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" /></noscript>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f9f8f6; --surface: #ffffff; --border: #e8e5df; --border-dark: #d0ccc4;
+      --text: #0f0e0c; --text-2: #5a5650; --text-3: #9b958d;
+      --accent: #1a5cff; --accent-light: #eef2ff; --accent-dark: #1040cc;
+      --green: #00b37e; --red: #e53e3e; --amber: #d97706;
+      --radius: 14px;
+      --font-display: 'Sora', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+    /* ── Nav ── */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: rgba(249,248,246,0.92); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+    .nav-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text); text-decoration: none; letter-spacing: -0.5px; }
+    .logo span { color: var(--accent); }
+    .nav-back { font-size: 14px; font-weight: 500; color: var(--text-2); text-decoration: none; display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--text); }
+    .nav-cta { background: var(--accent); color: #fff; padding: 9px 20px; border-radius: 8px; font-weight: 600; font-size: 14px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent-dark); }
+
+    /* ── Hero ── */
+    .legal-hero { background: var(--text); padding: 120px 24px 64px; }
+    .legal-hero-inner { max-width: 760px; margin: 0 auto; }
+    .legal-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; padding: 5px 12px; font-size: 12px; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+    .legal-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 52px); font-weight: 700; color: #fff; letter-spacing: -1px; line-height: 1.1; margin-bottom: 16px; }
+    .legal-hero p { font-size: 16px; color: rgba(255,255,255,0.55); line-height: 1.7; max-width: 560px; }
+    .legal-meta { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
+    .legal-meta-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 5px 11px; font-size: 12px; color: rgba(255,255,255,0.4); }
+
+    /* ── Layout ── */
+    .legal-wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+
+    /* ── Summary box ── */
+    .legal-summary { background: var(--accent-light); border: 1px solid #c7d7ff; border-radius: var(--radius); padding: 20px 24px; margin-bottom: 48px; }
+    .legal-summary strong { font-weight: 600; color: #1a3a8f; }
+    .legal-summary p { color: #1a3a8f; font-size: 14px; line-height: 1.7; }
+
+    /* ── Sections ── */
+    .legal-section { margin-bottom: 48px; padding-bottom: 48px; border-bottom: 1px solid var(--border); }
+    .legal-section:last-child { border-bottom: none; margin-bottom: 0; }
+    .legal-section h2 { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 16px; letter-spacing: -0.3px; }
+    .legal-section h3 { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--text); margin: 24px 0 10px; }
+    .legal-section p { font-size: 15px; color: var(--text-2); line-height: 1.75; margin-bottom: 14px; }
+    .legal-section p:last-child { margin-bottom: 0; }
+    .legal-section ul { padding-left: 20px; margin-bottom: 14px; }
+    .legal-section li { font-size: 15px; color: var(--text-2); line-height: 1.7; margin-bottom: 8px; }
+    .legal-section strong { font-weight: 600; color: var(--text); }
+    .legal-section a { color: var(--accent); text-decoration: none; }
+    .legal-section a:hover { text-decoration: underline; }
+
+    /* ── Rights grid ── */
+    .rights-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+    .rights-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+    .rights-card h4 { font-family: var(--font-display); font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .rights-card p { font-size: 13px; color: var(--text-3); line-height: 1.5; margin: 0; }
+
+    /* ── Pricing table ── */
+    .pricing-table { width: 100%; border-collapse: collapse; margin-top: 16px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+    .pricing-table th { background: var(--text); color: #fff; font-family: var(--font-display); font-size: 13px; font-weight: 600; padding: 12px 16px; text-align: left; }
+    .pricing-table td { padding: 12px 16px; font-size: 14px; color: var(--text-2); border-bottom: 1px solid var(--border); background: var(--surface); }
+    .pricing-table tr:last-child td { border-bottom: none; }
+    .pricing-table td strong { color: var(--text); }
+
+    /* ── Footer ── */
+    .legal-footer { background: var(--text); padding: 40px 24px; text-align: center; }
+    .legal-footer p { font-size: 13px; color: rgba(255,255,255,0.3); }
+    .legal-footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+    .legal-footer a:hover { color: rgba(255,255,255,0.8); }
+    .legal-footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 12px; flex-wrap: wrap; }
+
+    @media (max-width: 640px) {
+      .rights-grid { grid-template-columns: 1fr; }
+      .nav-cta { display: none; }
+      .legal-hero { padding: 100px 20px 48px; }
+      .legal-wrap { padding: 40px 20px 72px; }
+    }
+  </style>
+<link rel="icon" href="https://www.dplooy.com/favicon.ico" />
+</head>
+<body>
+
+  <input type="checkbox" id="menuToggle" class="menu-toggle-input" />
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">Remotely<span>.</span></a>
+      <a href="/index.html" class="nav-back">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Back to site
+      </a>
+      <a href="/index.html#consult" class="nav-cta">Book a Consultation</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="legal-hero">
+    <div class="legal-hero-inner">
+      <div class="legal-chip">Legal</div>
+      <h1>Terms of Service</h1>
+      <p>The agreement governing use of Remotely's remote staffing services. Please read before booking a consultation or engaging our services.</p>
+      <div class="legal-meta">
+        <span class="legal-meta-chip">Effective: January 2025</span>
+        <span class="legal-meta-chip">Governed by English Law</span>
+        <span class="legal-meta-chip">Last updated: January 2025</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="legal-wrap">
+
+    <div class="legal-summary">
+      <p><strong>Plain English summary:</strong> Flexible plans available — monthly rolling or long-term (discuss at consultation). Cancel monthly plans with 30 days' notice. We keep your information confidential. All remote workers are bound by NDAs. Talk to us first if there's ever an issue.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>1. Introduction</h2>
+      <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("Client") and Remotely, a remote staffing services company registered in England and Wales ("Remotely", "we", "us", "our").</p>
+      <p>By booking a consultation, engaging our services, or using our website at <a href="https://www.remotelyuk.com">www.remotelyuk.com</a>, you agree to be bound by these Terms alongside our <a href="/privacy.html">Privacy Policy</a> and <a href="/cookies.html">Cookie Policy</a>.</p>
+      <p>If you do not agree to these Terms, please do not use our services.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>2. Services &amp; Pricing</h2>
+      <p>Remotely provides vetted, trained remote workers to UK businesses. Our current service plans are:</p>
+      <table class="pricing-table">
+        <thead>
+          <tr><th>Service</th><th>Price</th><th>Commitment</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Admin Support</strong></td><td>£650/month</td><td>Monthly rolling or long-term</td></tr>
+          <tr><td><strong>Sales Support</strong></td><td>£850/month</td><td>Monthly rolling or long-term</td></tr>
+          <tr><td><strong>Adhoc Admin Support</strong></td><td>£45/day</td><td>No minimum commitment</td></tr>
+          <tr><td><strong>Adhoc Sales Support</strong></td><td>£65/day</td><td>No minimum commitment</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:16px;">Long-term contract arrangements are available and can be discussed during your free consultation. All prices are exclusive of VAT unless stated otherwise. Remotely reserves the right to update pricing with 30 days' notice to existing clients.</p>
+      <p>The specific tasks, scope of work, and tools to be used are agreed between Remotely and the Client before services commence. Any significant changes to scope must be agreed in writing.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>3. Engagement &amp; Onboarding</h2>
+      <p>Following your consultation, Remotely will match you with a suitable remote worker based on your stated requirements. Most clients are up and running within 2–5 working days of their initial consultation.</p>
+      <p>Remotely handles all matching, onboarding, and handover processes. The Client is responsible for providing timely access to any tools, systems, or information necessary for the remote worker to carry out their duties.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>4. Payment Terms</h2>
+      <p>Monthly plans are invoiced in advance at the start of each billing period and are payable within <strong>7 days of invoice</strong>. Adhoc days are invoiced upon completion of the work.</p>
+      <p>Late payments may incur interest under the Late Payment of Commercial Debts (Interest) Act 1998, at 8% above the Bank of England base rate. Remotely reserves the right to suspend services for accounts more than 14 days overdue without prior notice.</p>
+      <p>All payments should be made by bank transfer to the details provided on your invoice.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>5. Cancellation &amp; Changes</h2>
+      <p>Monthly rolling plans require <strong>30 days' written notice</strong> to cancel, sent to <a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a>. No refunds are issued for prepaid monthly periods that have already commenced.</p>
+      <p>Adhoc days cancelled with less than 24 hours' notice will be charged in full.</p>
+      <p>You may upgrade or downgrade between monthly plans at the start of any new billing period. Changes should be requested in writing with at least 7 days' notice.</p>
+      <p>Long-term contract cancellation terms will be specified in your individual contract agreement.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>6. Client Obligations</h2>
+      <ul>
+        <li>Provide clear, accurate, and timely instructions to your remote worker</li>
+        <li>Grant access to any tools, platforms, or systems required to carry out agreed tasks</li>
+        <li>Treat your remote worker with respect and professionalism at all times</li>
+        <li>Not instruct your remote worker to carry out any unlawful, unethical, or unsafe tasks</li>
+        <li>Notify Remotely promptly of any concerns, issues, or changes in requirements</li>
+        <li>Not directly solicit, recruit, or employ any Remotely remote worker within <strong>12 months</strong> of your engagement with Remotely ending</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h2>7. Remotely's Obligations</h2>
+      <ul>
+        <li>Provide vetted, trained remote workers matched to your stated requirements</li>
+        <li>Respond promptly to client feedback and concerns</li>
+        <li>Replace an unsatisfactory remote worker at no additional cost, subject to reasonable notice</li>
+        <li>Keep your confidential information and business data secure</li>
+        <li>Ensure all remote workers have signed confidentiality and data protection agreements</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h2>8. Confidentiality</h2>
+      <p>Both parties agree to keep all non-public business information, client data, and proprietary materials strictly confidential during and after the engagement. This obligation survives termination of the agreement for a period of <strong>3 years</strong>.</p>
+      <p>All Remotely remote workers sign confidentiality agreements as part of their onboarding process. Remotely will not disclose any client information to third parties without prior written consent, except where required by law.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>9. Intellectual Property</h2>
+      <p>All work product, documents, content, and materials created by your remote worker in the course of providing services become the property of the Client upon receipt of full payment for those services.</p>
+      <p>Remotely retains ownership of its proprietary systems, methodologies, training materials, processes, and any pre-existing intellectual property.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>10. Liability</h2>
+      <p>Remotely's total aggregate liability to the Client in any 12-month period shall not exceed the total fees paid by the Client to Remotely during that period.</p>
+      <p>Remotely shall not be liable for any indirect, consequential, special, or punitive losses, including loss of profit, loss of data, or business interruption, even if advised of the possibility of such losses.</p>
+      <p>Nothing in these Terms excludes or limits liability for death or personal injury caused by negligence, fraud or fraudulent misrepresentation, or any other liability that cannot be excluded under English law.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>11. Termination</h2>
+      <p>Either party may terminate monthly rolling agreements with 30 days' written notice. Remotely reserves the right to terminate services immediately in cases of material breach, non-payment, or conduct that puts the wellbeing of a remote worker at risk.</p>
+      <p>Upon termination, all outstanding fees become immediately payable and each party must return or destroy confidential information belonging to the other party.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>12. Disputes</h2>
+      <p>In the event of a dispute, both parties agree to first attempt to resolve the matter informally by contacting <a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a>. We will endeavour to respond within 5 business days.</p>
+      <p>If the dispute cannot be resolved informally within 30 days, either party may pursue resolution through the courts of England and Wales.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>13. General</h2>
+      <p><strong>Governing law:</strong> These Terms are governed by and construed in accordance with the laws of England and Wales.</p>
+      <p><strong>Jurisdiction:</strong> Both parties submit to the exclusive jurisdiction of the courts of England and Wales.</p>
+      <p><strong>Entire agreement:</strong> These Terms, together with our Privacy Policy and any individual contract agreed between the parties, constitute the entire agreement between us.</p>
+      <p><strong>Severability:</strong> If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full force.</p>
+      <p><strong>Waiver:</strong> Failure by either party to enforce any provision shall not constitute a waiver of that right.</p>
+    </div>
+
+    <div class="legal-section">
+      <h2>14. Contact</h2>
+      <p>For any questions regarding these Terms of Service, please contact us:</p>
+      <p><strong>Email:</strong> <a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a><br/>
+      <strong>Website:</strong> <a href="https://www.remotelyuk.com">www.remotelyuk.com</a><br/>
+      <strong>Registered in:</strong> England and Wales</p>
+    </div>
+
+  </div>
+
+  <footer class="legal-footer">
+    <div class="legal-footer-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+      <a href="/cookies.html">Cookie Policy</a>
+    </div>
+    <p>© 2025 Remotely. All rights reserved. Registered in England &amp; Wales. &nbsp;|&nbsp; Design by <a href="https://www.syfer.cc" target="_blank" rel="noopener">Syfer</a></p>
+  </footer>
+
+</body>
+</html>
