@@ -684,7 +684,8 @@
 
     /* Form card */
     .consult-form-card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 40px; box-shadow: 0 24px 64px rgba(0,0,0,0.3); }
-    .consult-success { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 48px 40px; box-shadow: 0 24px 64px rgba(0,0,0,0.3); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+    .consult-success { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 48px 40px; box-shadow: 0 24px 64px rgba(0,0,0,0.3); text-align: center; display: none; flex-direction: column; align-items: center; gap: 16px; }
+    .consult-success:not([hidden]) { display: flex; }
     .consult-success-icon { color: #1f7a3a; }
     .consult-success-title { font-family: var(--font-display); font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
     .consult-success-sub { font-size: 14px; color: var(--text-3); line-height: 1.6; max-width: 380px; }
@@ -731,7 +732,7 @@
     .footer-legal { display: flex; gap: 20px; }
     .footer-legal a { font-size: 13px; color: rgba(255,255,255,0.25); text-decoration: none; transition: color 0.2s; }
     .footer-legal a:hover { color: rgba(255,255,255,0.5); }
-    .footer-credit { font-size: 12px; color: rgba(255,255,255,0.18); }
+    .footer-credit { font-size: 12px; color: rgba(255,255,255,0.18); text-align: center; margin-top: 16px; max-width: 1160px; margin-left: auto; margin-right: auto; }
     .footer-credit a { color: rgba(255,255,255,0.28); text-decoration: none; transition: color 0.2s; }
     .footer-credit a:hover { color: rgba(255,255,255,0.55); }
 
@@ -1618,14 +1619,23 @@
       <div class="footer-col">
         <h5>Resources</h5>
         <ul>
-          <li><a href="#faq">FAQs</a></li>
+          <li><a href="/faq">FAQs</a></li>
           <li><a href="/privacy.html">Privacy Policy</a></li>
           <li><a href="/terms.html">Terms of Service</a></li>
-          <li><a href="/cdn-cgi/l/email-protection#027667636f4270676f6d76676e7b77692c616d6f" style="color:rgba(255,255,255,0.45);text-decoration:none;font-size:14px;"><span class="__cf_email__" data-cfemail="e29687838fa290878f8d96878e9b9789cc818d8f">[email&#160;protected]</span></a></li>
+          <li><a href="mailto:team@remotelyuk.com">team@remotelyuk.com</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span class="footer-copy">© 2025 Remotely. All rights reserved. Registered in England &amp; Wales.</span>
       <div class="footer-legal">
-        <a href="/privacy.html">Privacy P
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/cookies.html">Cookie Policy</a>
+      </div>
+    </div>
+    <p class="footer-credit">Design by <a href="https://www.syfer.cc" target="_blank" rel="noopener">Syfer</a></p>
+  </footer>
+
+</body>
+</html>
