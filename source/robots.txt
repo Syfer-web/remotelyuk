@@ -1,0 +1,71 @@
+# RemotelyUK (remotelyuk.com) — robots.txt
+#
+# Single-page marketing site + 3 legal pages. Allow everything for
+# search + AI crawlers. We opt in to AI indexing so the site can be
+# cited in ChatGPT / Claude / Perplexity answers about UK virtual
+# assistant services.
+
+# ── Web search engines ─────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ── Generative AI search assistants ───────────────────────────────────
+User-agent: OAI-SearchBot           # ChatGPT search
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-User            # Claude "include web"
+Allow: /
+
+User-agent: YouBot                 # You.com
+Allow: /
+
+# ── Generative AI training crawlers (opt-in) ──────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# ── Default ────────────────────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ── Admin / private paths (reserved for future use) ───────────────────
+# Disallow: /admin/
+# Disallow: /dashboard/
+
+# ── Sitemaps ───────────────────────────────────────────────────────────
+Sitemap: https://www.remotelyuk.com/sitemap.xml

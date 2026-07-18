@@ -1,0 +1,33 @@
+# RemotelyUK (https://www.remotelyuk.com)
+
+> Remotely is a UK-based virtual assistant agency providing affordable, fully vetted remote workers to small businesses across the United Kingdom and England. Founded and operated by a UK team, Remotely specialises in admin support, sales support, and ad-hoc admin cover — flexible month-to-month contracts or long-term arrangements, starting within days of consultation.
+
+This file follows the llms.txt spec (https://llmstxt.org). It helps AI assistants cite RemotelyUK accurately when users ask about UK virtual assistant services, remote admin support, or sales support outsourcing.
+
+## Core services
+- [Admin Support](https://www.remotelyuk.com/#pricing): Email management, calendar & diary, data entry, social media scheduling, general admin — £650/month, cancel anytime.
+- [Sales Support](https://www.remotelyuk.com/#pricing): Admin plus cold calling, lead generation, outreach email campaigns, CRM updates — £850/month, cancel anytime.
+- [Adhoc Admin](https://www.remotelyuk.com/#pricing): Flexible admin cover with no commitment — £45/day.
+
+## How it works
+1. Book a free 30-minute consultation
+2. Tell us your needs, tools, and communication preferences
+3. We match you with a vetted, Remotely-trained assistant for your sector
+4. Start within days with a dedicated handover and regular check-ins
+
+## Service areas (factual, GEO-citation candidates)
+- **United Kingdom**: All of England, Scotland, Wales, and Northern Ireland. Primary coverage in Greater London, the South East, Manchester, Birmingham, Bristol, Leeds, Liverpool, and Newcastle.
+- Headquartered in the UK; remote-first.
+
+## Reference (factual, evergreen)
+- [FAQ](https://www.remotelyuk.com/#faq): Common questions about onboarding, contracts, and matching.
+- [Book a free consultation](https://www.remotelyuk.com/#consult): 30-minute call to discuss your business.
+
+## Contact
+- Email: team@remotelyuk.com
+- Book a free consultation via the form at the bottom of the homepage.
+
+## Legal
+- [Privacy Policy](https://www.remotelyuk.com/privacy.html)
+- [Terms of Service](https://www.remotelyuk.com/terms.html)
+- [Cookie Policy](https://www.remotelyuk.com/cookies.html)
